@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <modules>
+        <Zangirolami_Helloworld>
+            <version>0.1.0</version>
+        </Zangirolami_Helloworld>
+    </modules>
+    <global>
+        <blocks>
+            <zangirolami_helloworld>
+                <class>Zangirolami_Helloworld_Block</class>
+            </zangirolami_helloworld>
+        </blocks>
+        <helpers>
+            <zangirolami_helloworld>
+                <class>Zangirolami_Helloworld_Helper</class>
+            </zangirolami_helloworld>
+        </helpers>
+    </global>
+    <default>
+        <zangirolami_helloworld>
+            <configuration>
+                <enabled>1</enabled>
+                <message>Test Message from config.xml</message>
+            </configuration>
+        </zangirolami_helloworld>
+    </default>
+</config>
